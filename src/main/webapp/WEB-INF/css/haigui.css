@@ -1,0 +1,113 @@
+/*总体布局*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    position: relative;
+    font-size:100%;
+    height:100%;
+    width: 100%;
+    margin: 0;
+
+}
+body {
+    position: relative;
+    width: 100%;
+    height:100%;
+    font-size:14px;
+    font-family:"Microsoft Yahei";
+    margin: 0;
+    padding: 0;
+    background:#efefef;
+
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.35);
+    color:#000;
+}
+img {
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    border:none;
+}
+div{ padding:0; margin:0;}
+ul,li{ list-style:none; padding:0; margin:0;}
+.clear{clear:both;}
+
+.container{ width:1039px; height:auto; margin-top:13px; background:#fff;margin:0 auto;}
+.nav0{ width:100%; height:54px; line-height:54px; }
+.nav-con{width:668px; height:54px; line-height:54px; float:left; font-family:STXingkai;}
+.nav-list li{ width:110px; font-size:16px; float:left; text-align:center;font-family:STXingkai;}
+.nav-list li a{ color:#0965c7;font-family:STXingkai;}
+.nav-list li a:hover{ color:#000;font-family:STXingkai;}
+.xuanzhong a{color:#000;}
+.home{ width:147px; height:54px; line-height:54px; font-size:16px; color:#898989; float:right;font-family:"STXingkai";}
+.content{ width:100%; height:650px; overflow:hidden;}
+.sidebar01{ width:341px; height:auto; overflow:hidden; float:left;}
+.sidebar02{ width:341px; height:auto; overflow:hidden; float:left; margin-left:8px;}
+.footer{ height:36px; width:100%; line-height:36px; text-align:center; color:#fff; font-size:14px; background:#777777;}
+.denglu{width:338px; height:263px; border:1px solid #c9caca; margin-top:30px;}
+.denglu-input{ width:309px; height:151px; margin:0 auto; margin-top:15px;}
+.input-label{ height:35px; line-height:35px; font-size:15px; color:#d8000f; text-align:left;}
+.input00{ border:none; border:1px solid #c9caca; height:25px; width:309px; margin-top:5px;}
+.denglu-btr{width:149px; height:30px; margin:0 auto; line-height:30px; background:#c9cacb; color:#fff; text-align:center; margin-top:15px;}
+.jingcai{ width:100%; margin-top:50px; color:#1b8fc6; font-size:18px; text-align:center;}
+
+/********************登录框************************/
+.tab01{display:block; width:79px; height:29px; line-height:29px; font-size:16px; color:#fff; background:#d8000f; float:left; text-align:center; }
+.tab02{display:block; width:79px; height:29px; line-height:29px; background:blue; color:#fff; float:left; text-align:center;font-size:16px; }
+
+/*****************************标签云************************************/
+.biaoqianyun{ width:380px; height:220px;}
+#div1 {position:relative; width:330px; height:200px; margin: 0 auto; margin-top:40px; }
+#div1 a {position:absolute; top:0px; left:0px; font-family: Microsoft YaHei; color:blue; font-weight:bold; text-decoration:none; padding: 3px 6px; }
+#div1 a:hover {border: 1px solid #eee; background: gray;  }
+
+#div2 {position:relative; width:330px; height:200px; margin: 0 auto; margin-top:40px; }
+#div2 a {position:absolute; top:0px; left:0px; font-family: Microsoft YaHei; color:blue; font-weight:bold; text-decoration:none; padding: 3px 6px; }
+#div2 a:hover {border: 1px solid #eee; background: gray; }
+
+.haiguika{ margin-top:70px; width:330px; padding-right:11px;}
+.haiguika0{ margin-top:70px; width:330px; padding-left:11px;}
+/**************************neiye.html**************************************/
+.siderbar-left{ width:250px; float:left; height:600px; margin-left:2px; box-shadow:4px 1px 16px #CCC;}
+.daohang li{ height:50px; line-height:50px; text-align:center; width:100%; font-size:16px;}
+/**********************************diyu.html******************************************/
+.diyu{ width:855px; height:639px;}
+.diyu-con{width:736px; height:580px; margin:0 auto;}
+.diyu-name{width:70px; height:30px; line-height:30px; float:left;}
+.diyu-list{ width:560px; float:left; height:auto; }
+.diyu-list  a{ color:#666867; display:block; width:auto;float:left; line-height:30px; height:30px; margin-right:10px; overflow:hidden;}
+
+.daohang li{ height:50px; line-height:50px; text-align:center; width:100%; font-size:16px;}
+#nav{width:100%;}
+#nav li{height:50px; line-height:50px; text-align:center; width:48%; font-size:16px;float: left;}
+#nav li .v a{height:50px;line-height:50px;display:block;color:#000;}
+#nav li .v a:hover,#nav li .v .sele{background:url(../images/xuan.png) no-repeat right;color:#15abf3;height:50px;line-height:50px;font-size:16px;text-decoration:none; font-weight:bold;}
+/**************************************fengcaishow.html****************************************************/
+.siderbar-right{ width:750px; float:left;margin-left:15px;padding-left:15px;height:auto;  box-shadow:4px 1px 16px #CCC;padding-right: 5px;}
+.fengcai{  margin:0 auto; margin-top:10px; height:auto;}
+.fengcai-img{ width:257px; height:238px; float:left; margin-right:10px; margin-top:10px;}
+.fengcai-word{ font-size:14px; line-height:20px; text-align:center;}
+
+.liebiao{margin-top:10px; height:auto;}
+.list00 li{ height:35px; line-height:35px; width:100%;}
+.list00-left{ width:80%; float:left; line-height:35px; height:35px; color:#333; font-size:14px;}
+.list00-left a{color:#333;}
+.list00-right{ width:20%; float:right; line-height:35px; height:35px; color:#999; font-size:14px;}
+.square{ color:#00F;}
+
+.xiangqing{ width:20%;margin-top:10px; height:auto;}
+.xiangqing-title{ font-size:18px; font-weight:bold; line-height:50px; text-align:center;}
+.xiangqing-zuozhe{  font-size:14px; line-height:30px; text-align:center;}
+.blue{ color:#00F;}
+.neirong{ font-size:18px; line-height:45px;}
+.neirong00{ text-indent:2em;}
+.header{ color:#15abf3;font-size: 16px;}
+/*页码*/
+.page{ width:799px; height:28px; margin:0 auto; margin-top:4px; margin-bottom:4px; border-bottom:1px solid #CCC;}
+.pageContent{ width:600px; margin:0 auto; color:#999;}
+.pageContent a{ color:#999;}
